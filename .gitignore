@@ -1,0 +1,33 @@
+# IDE
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Experiments results (large files)
+experiments/results/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 大模型权重文件
+*.bin
+*.safetensors
+*.pt
+*.pth
+models/
+
+# 虚拟环境文件夹
+gcg/
+venv/
+myenv/
+
+# 日志与图片（可选，如果你想上传loss曲线图就不要加这条）
+# *.log
